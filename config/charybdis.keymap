@@ -112,7 +112,7 @@
         BASE {   
             bindings = <
 &kp LGUI    &kp Q          &kp W      &kp E      &kp R                       &kp T      &kp Y      &kp U   &kp I        &kp O      &kp P              &kp RGUI
-&kp LSHFT   &u_mt LALT     &kp S      &kp D      &kp F                       &kp G      &kp H      &kp J   &kp K        &kp L      &u_mt RALT SEMI    &kp RSHFT
+&kp LSHIFT   &u_mt LALT     &kp S      &kp D      &kp F                       &kp G      &kp H      &kp J   &kp K        &kp L      &u_mt RALT SEMI    &kp RSHIFT
 &kp LCTRL   &u_lt 5 Z      &kp X      &kp C      &kp V                       &kp B      &kp N      &kp M   &kp COMMA    &kp DOT    &u_lt 5 FSLH       &kp RCTRL
                            &kp BSPC   &kp SPACE  &mo 1                       &mo 2      &kp RET
             >;
@@ -121,7 +121,7 @@
         NAV {
             bindings = <
 &studio_unlock      &none      &kp C_PREV       &kp C_PP        &kp C_NEXT      &none                       &kp LBKT     &kp N7   &kp N8   &kp N9   &kp RBKT    &kp SQT
-&kp F14             &kp LGUI   &kp LALT         &kp LCTRL       &mt LSHFT       &kp GRAVE                   &kp EQUAL    &kp N4   &kp N5   &kp N6   &kp MINUS   &none
+&kp F14             &kp LGUI   &kp LALT         &kp LCTRL       &mt LSHIFT       &kp GRAVE                   &kp EQUAL    &kp N4   &kp N5   &kp N6   &kp MINUS   &none
 &kp F15             &none      &kp C_VOL_DN     &kp C_MUTE      &kp C_VOL_UP    &kp SLASH                   &kp N0       &kp N1   &kp N2   &kp N3   &kp NUBS    &none
                                                 &none           &none           &trans                      &trans       &trans
             >;
@@ -129,9 +129,9 @@
 
         SYMNUM {
             bindings = <
-&none      &none       &none        &none        &none          &none                    &none    &none    &none    &none    &none    &none
-&kp TAB    &kp LEFT    &kp DOWN     &kp UP       &kp RIGHT      &none                    &none    &none    &none    &none    &none    &none
-&none      &kp HOME    &kp PG_UP    &kp PG_DN    &kp END        &none                    &none    &none    &none    &none    &none    &none
+&none      &none       &none        &none        &none          &none                    &none    &none         &none        &none       &none       &none
+&kp TAB    &kp LEFT    &kp DOWN     &kp UP       &kp RIGHT      &none                    &none    &mt RSHIFT    &kp RCTRL    &kp RALT    &kp RGUI    &none
+&none      &kp HOME    &kp PG_UP    &kp PG_DN    &kp END        &none                    &none    &none         &none        &none       &none       &none
                                     &trans       &trans         &mo 3                    &trans   &trans
             >;
         };
