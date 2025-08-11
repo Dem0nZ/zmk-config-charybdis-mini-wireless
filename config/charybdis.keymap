@@ -20,10 +20,6 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-    };
-
     behaviors {
         u_mt: u_mt {
             compatible = "zmk,behavior-hold-tap";
