@@ -112,7 +112,7 @@
         BASE {   
             bindings = <
 &kp LGUI    &kp Q          &kp W      &kp E      &kp R                       &kp T      &kp Y      &kp U   &kp I        &kp O      &kp P              &kp RGUI
-&kp LSHIFT   &u_mt LALT     &kp S      &kp D      &kp F                       &kp G      &kp H      &kp J   &kp K        &kp L      &u_mt RALT SEMI    &kp RSHIFT
+&kp LSHIFT  &u_mt LALT A     &kp S      &kp D      &kp F                       &kp G      &kp H      &kp J   &kp K        &kp L      &u_mt RALT SEMI    &kp RSHIFT
 &kp LCTRL   &u_lt 5 Z      &kp X      &kp C      &kp V                       &kp B      &kp N      &kp M   &kp COMMA    &kp DOT    &u_lt 5 FSLH       &kp RCTRL
                            &kp BSPC   &kp SPACE  &mo 1                       &mo 2      &kp RET
             >;
