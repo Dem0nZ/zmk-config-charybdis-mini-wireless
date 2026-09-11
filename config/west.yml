@@ -4,10 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: zettaface
+      url-base: https://github.com/zettaface
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-input-processor-keybind
+      remote: zettaface
+      revision: main
   self:
     path: config
