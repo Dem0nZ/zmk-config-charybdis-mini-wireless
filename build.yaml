@@ -13,12 +13,12 @@
 #
 ---
 include:
-  # ZMK main / Zephyr 4.1: nice_nano_v2 was renamed to the ZMK board variant below.
-  - board: nice_nano//zmk
+  # Explicit Zephyr 4.1 board revision and the ZMK board variant (nice!nano v2).
+  - board: nice_nano@2.0.0//zmk
     shield: charybdis_left
-  - board: nice_nano//zmk
+  - board: nice_nano@2.0.0//zmk
     shield: charybdis_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano//zmk
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
